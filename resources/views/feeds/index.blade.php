@@ -34,7 +34,7 @@
                                 Be specific when adding key words. Instead of broad topics like "Technology"
                                 try more specific queries like "Quantum Computing". Even better,
                                 try to pick specific companies, people, or entities. The less specific the the query,
-                                the less relavent results you'll get.
+                                the less relevant results you'll get.
                             </p>
                         </li>
                         <li>
@@ -47,7 +47,7 @@
                         </li>
                         <li>
                             <p>
-                                Finally, have fun! If there are any issues please reach out to us and we'll do out best
+                                Finally, have fun! If there are any issues please reach out to us and we'll do our best
                                 to address them. Thank you!
                             </p>
                         </li>
