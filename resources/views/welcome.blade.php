@@ -33,6 +33,7 @@
             margin: 0 auto;
             text-align: center;
         }
+
     </style>
 @endsection
 
@@ -43,7 +44,9 @@
         <p class="tagline">The news you care about, and only the news you care about. No massive feeds,
             no unwanted content. Exactly what you ask for, everytime.
         </p>
+        <a href="/register" class="btn btn-lg btn-primary">Get Started</a>
     </div>
+    <br>
     <br>
     <div class="main-body">
         <section class="section">
