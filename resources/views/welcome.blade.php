@@ -59,7 +59,7 @@
             <p class="s-content">
                 Nano News is a news aggregator. We take your specific key word searches and scour news outlets,
                 high and low, for content. The content is algorithmically sorted down into the most up to date, interesting,
-                and relevant results. News os sourced from a variety of networks, allowing you to enjoy varied and
+                and relevant results. News is sourced from a variety of networks, allowing you to enjoy varied and
                 diverse content.
             </p>
         </section>
