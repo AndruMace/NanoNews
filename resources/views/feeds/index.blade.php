@@ -22,7 +22,6 @@
 @endsection
 
 @section('content')
-
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
@@ -85,6 +84,7 @@
                         </form>
                     </div>
                 </div>
+                
                 <div class="card" style="margin-top: 4rem;">
                     <div class="card-header">{{ __('Current Feeds') }}</div>
 
