@@ -22,7 +22,7 @@
 
         .main-body {
             background-color: white;
-            border: 1px solid black;
+            /*border: 1px solid black;*/
             width: 90%;
             margin: 0 auto;
             padding: 2rem;
@@ -31,7 +31,7 @@
         .section {
             width: 70%;
             margin: 0 auto;
-            text-align: center;
+            /*text-align: center;*/
         }
 
     </style>
@@ -87,8 +87,9 @@
                 <form action="/feedback" method="POST" class="d-flex flex-column">
                     @csrf
                     <input name="email" type="email" placeholder="Your Email" required>
-                <br>
+                    <br>
                     <textarea name="comment"cols="30" rows="10" placeholder="Your Comment" required></textarea>
+                    <br>
                     <button type="submit" class="btn btn-md btn-success">Send</button>
                 </form>
             <p/>
