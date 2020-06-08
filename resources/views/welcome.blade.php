@@ -41,6 +41,7 @@
 <main>
     <div class="header">
         <h1 class="title">Nano News</h1>
+        <hr>
         <p class="tagline">The news you care about, and only the news you care about. No massive feeds,
             no unwanted content. Exactly what you ask for, everytime.
         </p>
