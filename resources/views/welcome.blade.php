@@ -34,6 +34,10 @@
             /*text-align: center;*/
         }
 
+        .c-input {
+            padding: 1rem;
+        }
+
     </style>
 @endsection
 
@@ -90,9 +94,9 @@
                 @endif
                 <form action="/feedback" method="POST" class="d-flex flex-column">
                     @csrf
-                    <input name="email" type="email" placeholder="Your Email" required>
+                    <input class="c-input "name="email" type="email" placeholder="Your Email" required>
                     <br>
-                    <textarea name="comment"cols="30" rows="10" placeholder="Your Comment" required></textarea>
+                    <textarea class="c-input "name="comment"cols="30" rows="10" placeholder="Your Comment" required></textarea>
                     <br>
                     <button type="submit" class="btn btn-md btn-success">Send</button>
                 </form>
