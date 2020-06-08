@@ -34,9 +34,9 @@
             /*text-align: center;*/
         }
 
-        @media (max-width: 400px) {
+        @media (max-width: 600px) {
             .section {
-                width: 100%;
+                width: 95%;
             }
         }
 
