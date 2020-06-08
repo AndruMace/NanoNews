@@ -34,6 +34,12 @@
             /*text-align: center;*/
         }
 
+        @media (max-width: 400px) {
+            .section {
+                width: 100%;
+            }
+        }
+
         .c-input {
             padding: 1rem;
         }
