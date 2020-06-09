@@ -128,11 +128,11 @@
         <ul class="feed-list">
             GOTO:
             @foreach($responses as $term => $res)
-                <a href={{'#'.$term}}><li>{{ $term }}</li></a>
+                <a href={{'#'.str_replace(' ', '', $term)}}><li>{{ $term }}</li></a>
             @endforeach
         </ul>
         @foreach($responses as $term => $res)
-            <section id="{{$term}}">
+            <section id="{{str_replace(' ', '', $term)}}">
                 <h2 class="section-title">Results for: "{{ $term }}"</h2>
                 <div class="u-container">
                     @foreach($res->value as $val)

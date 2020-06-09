@@ -84,7 +84,7 @@
                         </form>
                     </div>
                 </div>
-                
+
                 <div class="card" style="margin-top: 4rem;">
                     <div class="card-header">{{ __('Current Feeds') }}</div>
 

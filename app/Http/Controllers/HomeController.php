@@ -58,4 +58,10 @@ class HomeController extends Controller
         $comment->save();
         return redirect("/");
     }
+
+
+    public function admin()
+    {
+        return view('admin');
+    }
 }

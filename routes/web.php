@@ -25,4 +25,5 @@ Route::middleware('auth')->group(function () {
     Route::post('/feeds', 'FeedController@store')->name('new_feed');
     Route::delete('/feeds/{term}', 'FeedController@delete');
     Route::get('/feeds', 'FeedController@index')->name('feeds');
+    Route::get('/admin', 'HomeController@admin');
 });
