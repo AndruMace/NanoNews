@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-center pt-4 pb-0">
-                    <button class="btn btn-lg btn-success">View Feeds</button>
+                    <a href="/home" class="btn btn-lg btn-success">View Feeds</a>
                 </div>
                 <div class="card" style="margin-top: 2rem;">
                     <div class="card-header">{{ __('Current Feeds') }}</div>
