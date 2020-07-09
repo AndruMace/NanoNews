@@ -30,7 +30,7 @@ class Feed extends Model
 
     public function ExecuteSearch()
     {
-        $accessKey = 'ed286d22e3624031b3f1576c8e4c8388';
+        $accessKey = 'mykey';
         $endpoint = 'https://api.cognitive.microsoft.com/bing/v7.0/news/search';
         $term = $this->term;
 
